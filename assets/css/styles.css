@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --white-color: white;
+    --light-color:#F3F4FB;
+    --black-color: black;
+    --violet-color:#bdb1f7;
+    --darkviolet-color:#7a48df;
+    --gray-color:#606060;
+    --grayP-color:#c5c5c5;
+
+    font-family: "Inter", sans-serif;
+   
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: var(--white-color) !important;
+}
+h1{
+    color: var(--white-color);
+}
+h2{
+    font-size: 3.5rem;
+   font-weight: bold;
+    text-align: left;
+}
+.comment{
+    color: var(--gray-color);
+}
+.hover:hover{
+    color: var(--violet-color)!important;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link.active{
+    color: var(--violet-color)!important;
+}
+#signup:hover ,.darkviolet:hover{
+   background-color: var(--violet-color) !important;
+   transition: all 0.3s ease-in-out;
+}
+#mainhome div div div{
+    color: var(--white-color);
+}
+#mainhome div div div h5{
+    color: var(--violet-color);
+    font-size: 12px;
+}
+#mainhome div div div h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 5.15rem;
+}
+#mainhome div div div p,#mainhome div div div p span{
+    color: var(--grayP-color)!important;
+    
+}
+
+.darkviolet{       /*buttons*/
+   background-color: var(--darkviolet-color);
+}
+#herorightcol .col{
+    max-height: 860px;
+    overflow-y: hidden;    
+}
+#herorightcol .divhero{
+    height: 150px;
+}
+#herorightcol div.bottom{
+  background-color: #80E1DD;
+}
+#herorightcol div.top{
+  background-color: #dadcef;
+}
+#mainfeatures{
+    background-color:var(--light-color);
+    text-align: left;
+}
+#mainfeatures .col{
+   
+    color: black;
+}
+@media screen and (max-width: 992px) {
+    #featuresleft {
+        border-bottom: 2px solid var(--black-color);
+    }
+    #featuresleft h2{
+        width: 100%;
+    }
+    #mentorsright h2{
+        font-size: 2.5rem !important;
+    }
+    
+    
+}
+@media screen and (min-width: 992px) {
+    #featuresleft {
+        border-right: 2px solid var(--black-color);
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    #mentorsright h2{
+        font-size: 2rem !important;
+    }
+    
+}
+#mainfeatures #featuresleft span.design{
+    color:var(--violet-color) ;
+}
+
+#mainfeatures  .featurescard h4{
+  color: var(--black-color) ;
+}
+#mainmentors{
+    background-color:#f8f8f8;
+}
+
+#mentors #mentorsleft #mentorsleft-topright{
+    width: 40%;
+    border-right: 1px solid white;
+    border-radius: 0 64px 64px 0;
+}
+#mentors #bottomright{
+    transform: rotate(180deg);
+}
+#mainbenefits{
+    background-color: var(--light-color);
+}
+#mainbenefits #card{
+    border-top:4px solid var(--darkviolet-color) ;
+    background-color: white;
+    box-shadow:  0 0 30px 1px var(--grayP-color);
+}
+#tutorbtn{
+    border:solid  2px var(--black-color);
+}
+#tutorbtn:hover{
+    background-color: var(--darkviolet-color);
+    color: var(--white-color)!important;
+    transition: all 0.3s ease-in-out;
+}
+@media (min-width: 1400px) { /* xxl breakpoint */
+  #tutor {
+    width: 75% !important;
+  }
+}
+
