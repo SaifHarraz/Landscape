@@ -57,10 +57,6 @@ h5{
     color: var(--violet-color)!important;
     transition: all 0.3s ease-in-out;
 }
-
-nav>div>ul{
-
-}
 nav {
     color: var(--white-color)!important;
 }
