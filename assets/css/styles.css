@@ -201,7 +201,7 @@ nav {
     background-color: var(--violet-color);
     overflow: hidden;
     transform: translate(0,60%);
-    margin-top: -10%;
+    margin-top: -180px !important;
     width: 90%;
     align-self: center;
     z-index: 2;
