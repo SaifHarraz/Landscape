@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    --white-color: white;
+    --light-color:#F3F4FB;
+    --black-color: black;
+    --violet-color:#bdb1f7;
+    --darkviolet-color:#7a48df;
+    --lightviolet-color:#ede1f7;
+    --gray-color:#606060;
+    --grayP-color:#c5c5c5;
+    --lightblue-color:#2890e6;
+    font-family: "Noto-Sans-Arabic";
+   
+}
+@font-face {
+  font-family: "Noto-Sans-Arabic";
+  src: url("/assets/fonts/Noto_Sans_Arabic/NotoSansArabic-VariableFont_wdth\,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: var(--white-color) !important;
+    align-content: center;
+}
+h1{
+    color: var(--white-color);
+}
+@media screen and (max-width: 768px) {
+     h1{
+        font-size: 2.5rem !important;
+    }
+    
+}
+h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+h5{
+    color: var(--grayP-color);
+    font-size: 14px;
+}
+.comment{
+    color: var(--gray-color);
+}
+.hover:hover{
+    color: var(--violet-color)!important;
+    transition: all 0.3s ease-in-out;
+}
+nav {
+    color: var(--white-color)!important;
+}
+.nav-link.active{
+    color: var(--violet-color)!important;
+}
+.darkviolet{       /*buttons*/
+   background-color: var(--darkviolet-color);
+}
+#signup:hover ,.darkviolet:hover{
+   background-color: var(--violet-color) !important;
+   transition: all 0.3s ease-in-out;
+   color: var(--black-color)!important;
+}
+#mainhome div div div{
+    color: var(--white-color);
+}
+#mainhome a{
+    text-align: center;
+}
+#mainhome div div div h5{
+    color: var(--violet-color);
+    font-size: 12px;
+}
+#mainhome div div div h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 5.15rem;
+}
+#mainhome div div div p,#mainhome div div div p span{
+    color: var(--grayP-color)!important;
+    
+}
+#herorightcol .col{
+    max-height: 860px;
+    overflow-y: hidden;    
+}
+#herorightcol .divhero{
+    height: 150px;
+}
+#herorightcol div.bottom{
+  background-color: #80E1DD;
+}
+#herorightcol div.top{
+  background-color: #dadcef;
+}
+#mainfeatures{
+    background-color:var(--light-color);
+}
+#mainfeatures .col{
+   
+    color: black;
+}
+@media screen and (max-width: 992px) {
+    #featuresleft {
+        border-bottom: 2px solid var(--black-color);
+    }
+    #featuresleft h2{
+        width: 100%;
+    }
+    #mentorsright h2{
+        font-size: 2rem !important;
+    }
+    
+    
+}
+@media screen and (min-width: 992px) {
+    #featuresleft {
+        border-left: 2px solid var(--black-color);
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 2rem !important;
+    }
+    
+}
+#mainfeatures #featuresleft span.design{
+    color:var(--violet-color) ;
+}
+
+#mainfeatures  .featurescard h4{
+  color: var(--black-color) ;
+}
+#mainmentors{
+    background-color:#f8f8f8;
+}
+
+#mentors #mentorsleft #mentorsleft-topright{
+    width: 40%;
+    border-left: 1px solid var(--white-color);
+    border-radius:  64px 0 0 64px ;
+}
+#mentors #bottomright{
+    transform: rotate(270deg);
+}
+#mentors #topleft{
+    transform: rotate(90deg);
+}
+#mainbenefits{
+    background-color: var(--light-color);
+}
+#mainbenefits #card{
+    border-top:4px solid var(--darkviolet-color) ;
+    background-color: white;
+    box-shadow:  0 0 30px 1px var(--grayP-color);
+}
+#tutorbtn{
+    border:solid  2px var(--black-color);
+}
+#tutorbtn:hover{
+    background-color: var(--darkviolet-color);
+    color: var(--white-color)!important;
+    transition: all 0.3s ease-in-out;
+}
+@media (min-width: 1400px) { /* xxl breakpoint */
+  #tutor {
+    width: 75% !important;
+  }
+}
+#question{
+    max-width: 100% !important;
+}
+@media (min-width: 1800px) { /* xxl breakpoint */
+  #question{
+    width: 75% !important;
+  }
+}
+.checkborder{
+    width: 52px;
+    height: 52px;
+    border: 1px solid var(--violet-color);
+    background-color: var(--lightviolet-color);
+    border-radius: 50%;
+    
+}   
+.checkborder i{
+    border:1px solid var(--darkviolet-color) ;
+    
+}
+#overlay{
+    background-color: var(--violet-color);
+    overflow: hidden;
+    transform: translate(0,60%);
+    margin-top: -10%;
+    width: 90%;
+    align-self: center;
+    z-index: 2;
+}
+@media screen and (max-width: 768px) {
+    #overlay h2{
+    font-size: 2.5rem !important;
+}
+    
+}
+#overlay a{
+    background-color: var(--black-color);
+    color: var(--violet-color)!important;
+}
+#overlay a:hover{
+    background-color: var(--light-color)!important;
+    transition: all 0.3s ease-in-out;
+}
+
+#overlaybottomleft,
+#overlaytopright {
+    width: 12.5rem; /* 200px */
+}
+
+#overlay #overlaytopright {
+    bottom: calc(100% - 6.25rem); /* 100px */
+    left: calc(100% - 6.25rem);
+}
+
+#overlay #overlaybottomleft {
+    top: calc(100% - 6.25rem);
+    right: calc(100% - 6.25rem);
+}
+
+
+/* Images (borders kept in px) */
+#overlay img.overlaymentorlarge {
+    margin: 1px;
+    border: 3px solid var(--darkviolet-color);
+    border-radius: 50%;
+}
+
+#overlay img.overlaymentorsmall {
+    margin: 1px;
+    border: 3px solid var(--lightblue-color);
+    border-radius: 50%;
+}
+
+/* Mentor positions (already responsive with %) */
+#overlay #mentorimg1 {
+    top: 13%;
+    left: 5%;
+}
+#overlay #mentorimg2 {
+    top: 35%;
+    left: 9%;
+}
+#overlay #mentorimg3 {
+    top: 40%;
+    left: 2%;
+}
+#overlay #mentorimg4 {
+    bottom: 9%;
+    right: 10%;
+}
+#overlay #mentorimg5 {
+    bottom: 18%;
+    right: 3%;
+}
+#overlay #mentorimg6 {
+    bottom: 30%;
+    right: 5%;
+}
+footer #footertop{
+    width: 100%;
+    height: 250px;
+}
+#footermain{
+    border-bottom: 2px solid var(--gray-color);
+    padding-bottom:70px !important ;
+}
+#footermain .community input::placeholder {
+  text-align: center;   
+}
+ @media (min-width: 1800px) { 
+  #footermain,#footerbottom{
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+    #footermain{
+        text-align: center;
+        gap: 50px;
+    }
+    .footersub{
+       gap: 50px;
+    }
+    #footermain .community{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #footermain .community input{
+        padding: 10px;
+    }
+   
+
+}
+#footerbottom p,#footerbottom h5{
+     color: var(--grayP-color)!important;
+    font-size: 14px; 
+}
+
